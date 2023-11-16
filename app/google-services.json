@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526666982366",
+    "project_id": "authfood-f19f6",
+    "storage_bucket": "authfood-f19f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526666982366:android:e87230c911fedd899fb34f",
+        "android_client_info": {
+          "package_name": "com.example.foodmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526666982366-9v836b7mcbql6opdgrocn7q8gddc74t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzegDfAS48c_ksvJzhz4UuufdxrudVosI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526666982366-9v836b7mcbql6opdgrocn7q8gddc74t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

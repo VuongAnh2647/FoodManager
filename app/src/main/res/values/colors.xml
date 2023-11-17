@@ -54,7 +54,12 @@
     <color name="brown_300">#954E1C</color>
     <color name="brown_500">#8C3F0A</color>
 
-
+    <color name="primary_background">#FFFFFFFF</color>
+    <color name="foreign_background">#F5F5F5</color>
+    <color name="primary_color">#111111</color>
+    <color name="foreign_text_color">#717171</color>
+    <color name="primary_text_color">#FF000000</color>
+    <color name="background_silver">#F1F1F1</color>
 
 
 </resources>

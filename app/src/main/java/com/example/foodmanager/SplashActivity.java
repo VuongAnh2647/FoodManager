@@ -29,7 +29,6 @@ public class SplashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 Intent intent;
                 if(user == null){

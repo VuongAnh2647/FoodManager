@@ -118,15 +118,68 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintHorizontal_bias="0.95"
-                app:layout_constraintVertical_bias="0.5">
+                app:layout_constraintVertical_bias="0.9">
+
                 <ImageView
                     android:id="@+id/imgAddToOder"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_oder_product"
-                    />
+                    android:visibility="visible" />
 
-                    />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cavEditQuantity"
+                    android:layout_width="@dimen/dimen_100dp"
+                    android:layout_height="@dimen/dimen_35dp"
+                    app:cardCornerRadius="30dp"
+                    android:visibility="gone"
+                    app:cardBackgroundColor="@color/background_silver"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.807"
+                    app:layout_constraintStart_toEndOf="@id/tvPriceProduct"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    android:layout_margin="@dimen/dimen_2dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+
+                        >
+                        <ImageView
+                            android:id="@+id/btnReduce"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:padding="@dimen/dimen_5dp"
+                            android:src="@drawable/icon_remove_20px"
+                            >
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/editQuantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            android:gravity="center"
+                            android:text="1" />
+
+
+                        <ImageView
+                            android:id="@+id/btnAugment"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:padding="5dp"
+                            android:src="@drawable/icon_add_20px"
+                            >
+                        </ImageView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
             </androidx.cardview.widget.CardView>
 
 
